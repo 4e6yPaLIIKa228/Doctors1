@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\студент\source\repos\Doctor\Doctor\obj\Debug\
+C:\Users\Administrator\source\repos\Doctors1-main\Doctor\obj\Debug\
 Doctor
 none
 false
 DEBUG;TRACE
-C:\Users\студент\source\repos\Doctor\Doctor\App.xaml
-3-630875497
+C:\Users\Administrator\source\repos\Doctors1-main\Doctor\App.xaml
+5-1846276944
 
-877589233
+10885536599
 13-1505183044
-MainWindow.xaml;Login.xaml;Register.xaml;
+Log.xaml;MainWindow.xaml;Menu.xaml;Output.xaml;Regist.xaml;
 
 False
 

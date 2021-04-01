@@ -10,38 +10,37 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
-
 
 namespace Doctor
 {
     /// <summary>
-    /// Логика взаимодействия для MainWindow.xaml
+    /// Логика взаимодействия для Log.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class Log : Window
     {
-        public MainWindow()
+        public Log()
         {
             InitializeComponent();
         }
 
-        private void BtClouse_Click(object sender, RoutedEventArgs e)
+        private void BtClose_Click(object sender, RoutedEventArgs e)
         {
             Application.Current.Shutdown();
         }
-        private void BtOpen_Click(object sender, RoutedEventArgs e)
-        {
-            Log Log = new Log();
-            this.Close();
-            Log.Show();
-        }
 
-        private void BtRegist_Click(object sender, RoutedEventArgs e)
+        private void BtBack_Click(object sender, RoutedEventArgs e)
         {
             Regist Regist = new Regist();
             this.Close();
             Regist.Show();
+        }
+
+        private void BtLog_Click(object sender, RoutedEventArgs e)
+        {
+            Menu Menu = new Menu();
+            this.Close();
+            Menu.Show();
         }
     }
 }
